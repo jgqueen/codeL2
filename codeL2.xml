@@ -11,7 +11,7 @@
         </value>
         <value name="B">
           <block type="math_number" id="4">
-            <field name="NUM">0</field>
+            <field name="NUM">50</field>
           </block>
         </value>
       </block>
@@ -21,7 +21,7 @@
         <mutation else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare" id="6" inline="true">
-            <field name="OP">LT</field>
+            <field name="OP">GT</field>
             <value name="A">
               <block type="sensor_spectrometer" id="7">
                 <field name="LIGHT">BLUE</field>
@@ -29,7 +29,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="8">
-                <field name="NUM">0</field>
+                <field name="NUM">80</field>
               </block>
             </value>
           </block>
